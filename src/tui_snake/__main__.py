@@ -1,4 +1,4 @@
-from main import SnakeApp
+from tui_snake.main import SnakeApp
 
 
 def main() -> None:

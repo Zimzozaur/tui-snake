@@ -768,7 +768,6 @@ class TitleScreen(Screen):
 
 
 class SnakeApp(App):
-    """Class that start the whole program."""
     ENABLE_COMMAND_PALETTE = False
     CSS_PATH = ["styles/snake.tcss"]
 
