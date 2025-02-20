@@ -1,6 +1,6 @@
 [project]
 name = "tui-snake"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
     { name="Simon Piechutowski", email="szymonpiechutowski@gmail.com" },
 ]

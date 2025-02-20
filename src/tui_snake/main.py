@@ -1,6 +1,7 @@
 import webbrowser
 from enum import Enum
 from dataclasses import dataclass
+from pathlib import Path
 from typing import NamedTuple, cast
 from itertools import product
 from random import choice
@@ -221,9 +222,10 @@ Y_ASCII = """\
 Z_ASCII = """\
 """
 
-WALL_HIT_WAV = "src/audio/wall_hit.wav"
-TAIL_BITE_WAV = "src/audio/tail_bite.wav"
-CORN_BITE_WAV = "src/audio/corn_bite.wav"
+BASE_PATH = Path(__file__).parent
+WALL_HIT_WAV = BASE_PATH / "audio" / "wall_hit.wav"
+TAIL_BITE_WAV = BASE_PATH / "audio" / "tail_bite.wav"
+CORN_BITE_WAV = BASE_PATH / "audio" / "corn_bite.wav"
 
 
 class SingleMode(Enum):
