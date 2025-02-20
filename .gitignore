@@ -1,0 +1,31 @@
+############################
+#     Jet Brains Setup     #
+############################
+
+# Default ignored files
+.idea/shelf/
+.idea/workspace.xml
+# Editor-based HTTP Client requests
+.idea/httpRequests/
+# Datasource local storage ignored files
+.idea/dataSources/
+.idea/dataSources.local.xml
+
+####################
+#     My Setup     #
+####################
+
+# python generated files
+__pycache__/
+
+# pip generated files
+*egg-info/
+dist/
+
+# venv
+.venv/
+venv/
+.env
+
+mre.py
+test.py

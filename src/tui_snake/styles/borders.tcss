@@ -1,0 +1,71 @@
+SingleGameSettingsScreen {
+    border: round red;
+
+    #Wrapper {
+         border: round orange;
+    }
+
+    #Title {
+        border: round yellow;
+    }
+
+    Grid {
+        border: round yellow;
+
+        Label, Select {
+            border: round green;
+        }
+    }
+}
+
+
+GameModeScreen {
+    border: round red;
+
+    #Wrapper {
+        border: round orange;
+
+        #Title {
+            border: round yellow;
+        }
+    }
+}
+
+
+GamePlayScreen {
+    border: round red;
+}
+
+GameStats {
+    border: round yellow;
+
+    Static {
+        border: round green;
+    }
+}
+
+
+TitleScreen {
+    border: round orange;
+
+    Center {
+        border: round yellow;
+
+        Static {
+            border: round green;
+        }
+    }
+}
+
+
+PauseScreen {
+    border: round red;
+
+    Static {
+        border: round orange;
+
+        Static {
+            border: round yellow;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+[project]
+name = "tui-snake"
+version = "0.0.0"
+authors = [
+    { name="Simon Piechutowski", email="szymonpiechutowski@gmail.com" },
+]
+dependencies = [
+    "textual",
+    "pygame-ce~=2.5.0",
+]
+description = "Your Old Buddy, Snake – Slithering Through Your Terminal!"
+readme = "readme.md"
+requires-python = ">=3.12"
+
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Games/Entertainment :: Arcade",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.12",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Zimzozaur/tui-snake"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project.scripts]
+tuisnake = "src.__main__:main"
