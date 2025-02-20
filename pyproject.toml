@@ -36,4 +36,4 @@ build-backend = "hatchling.build"
 
 
 [project.scripts]
-tuisnake = "src.__main__:main"
+tuisnake = "tui_snake.__main__:main"
